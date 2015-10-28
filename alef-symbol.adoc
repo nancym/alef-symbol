@@ -1,0 +1,176 @@
+= ALEF SYMBOL by ℵancym
+:gurl: https://gist.github.com/nancym/caaeaf6777ca43adf789
+:atuurl: http://alefsym.tumblr.com/post/101511865526/alef-symbol
+:atwurl: https://twitter.com/alefsym/status/563370818407636992
+
+// old :atwurl: https://twitter.com/alefsym/status/528676321170178048
+
+
+
+^Updated^ ^2015-02-19^ 
+^first published 2014-11-01;^
+feedback welcome.footnoteref:[meta,You can
++++<a href="https://en.wikipedia.org/wiki/Like_button" title="bookmark, favorite, heart (♥), like, or star (★)">✭</a>+++
+or comment on this article on its permalink pages at
+{gurl}[Gist], {atuurl}[Tumblr], and {atwurl}[Twitter].]
+
+== What is Aleph?
+
+The character Aleph (&alefsym;), which is also spelled Alef, is used:
+
+  . in Mathematics, to represent different levels of infinity. &alefsym;~0~ is the smallest level of infinity, &alefsym;~1~ is the next level, etc.footnote:[In 1874 Cantor showed that there is more than one level of infinity and started using &alefsym;, followed by a subscript, to represent different levels of infinity.]footnoteref:[ac,If the Axiom of Choice is false, it is possible there are infinities other than the Alephs {&alefsym;~0~, &alefsym;~1~, &alefsym;~2~, ..., &alefsym;~ω~, &alefsym;~ω+1~, ...}.]
+  . in Hebrew, to represent
+    * the first letter of the alphabet,
+    * the number one (in http://en.wikipedia.org/wiki/Hebrew_alphabet#Numeric_values_of_letters[some contexts]), and
+    * the oneness of God (in https://en.wikipedia.org/wiki/Aleph#Rabbinic_Judaism[Jewish mysticism]).
+    
+
+== Where is Aleph in the Unicode character set?
+
+In https://en.wikipedia.org/wiki/Unicode[Unicode], which is a standard universal character set that can support over a million charactersfootnote:[It's more correct to say Unicode can support over a million http://en.wikipedia.org/wiki/Code_point["code points"] (rather than "characters"). U+2135 and U+05D0 are examples of Unicode code points.], the mathematical and Hebrew meanings of Aleph are represented by two different characters:
+
+  . http://www.fileformat.info/info/unicode/char/2135/index.htm[ALEF SYMBOL (U+2135)], which is in the
+http://en.wikipedia.org/wiki/Letterlike_Symbols[Letterlike Symbols Unicode block]
+  . http://www.fileformat.info/info/unicode/char/05d0/index.htm[HEBREW LETTER ALEF (U+05D0)], which is in the
+http://en.wikipedia.org/wiki/Hebrew_(Unicode_block)[Hebrew Unicode block]
+
+The main difference between these is that ALEF SYMBOL is part of a left-to-right directionality character set and HEBREW LETTER ALEF is part of a right-to-left directionality character set. 
+ALEF SYMBOL is a 
+https://en.wikipedia.org/wiki/Unicode_compatibility_characters[compatibility character] and these two characters are considered border-line
+https://en.wikipedia.org/wiki/Unicode_compatibility_characters#Semantically_distinct_characters[semantically distinct].
+It is common to use these characters interchangeably, especially when using a font that supports only one of them.
+ 
+== How to use Aleph in your writing
+
+To include Aleph in a document, you need a method for inserting it into your document's markup.footnote:[Common markup languages include AsciiDoc, HTML, LaTeX, Markdown, SGML, XHTML, and XML. AsciiDoc and Markdown are known as "lightweight markup languages."] Possible methods include:
+
+  * Insert the actual https://en.wikipedia.org/wiki/UTF-8[UTF-8]footnoteref:[utf8,UTF-8 is the encoding I'm using on this web page (and the encoding that is used on most web pages nowadays).] encoded ALEF SYMBOL Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/2135/browsertest.htm[FileFormat.Info/info/unicode/char/2135/browsertest.htm].
+  * Insert the actual UTF-8 encoded
+HEBREW LETTER ALEF Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/05d0/browsertest.htm[FileFormat.Info/info/unicode/char/05d0/browsertest.htm].
+  * Insert a named character reference that is supported by your markup language. For example, in LaTeX you can insert the
+http://en.wikipedia.org/wiki/String_(computer_science)[string]  
+ `\aleph` and in
+HTML
+you can insert the string  `\&alefsym;`.
+  * Insert a numeric character reference that is supported by your markup language. Examples are in the tables below.
+  * Insert an image of the character.
+
+The two tables below list some ways to insert these characters. You can use the third column of these tables to see how the web browser you are using right now supports these different markup methods.
+
+NOTE: The appearance of the Aleph characters in the third column of the tables below depends on the fonts that are installed on your system. If your system does not support a font that contains a character, you will see an empty box or a question mark. If ALEF SYMBOL and HEBREW LETTER ALEF look different from how they look at the FileFormat.Info links above, your browser may be doing https://en.wikipedia.org/wiki/Font_substitution[font substitution].
+
+&nbsp;
+
+.ALEF SYMBOL
+[cols="3", options="header"]
+|===
+|HTMLfootnoteref:[html,By "HTML," I mean HTML and lightweight HTML markup languages, such as AsciiDoc and Markdown. I wrote this article in AsciiDoc.] Markup Method
+|Markup code
+|Rendered in your browser
+
+|named character reference
+|\&alefsym;
+|&alefsym;
+
+|decimal numeric character reference
+|\&#8501;
+|&#8501;
+
+|hexadecimal numeric character reference
+|\&#x2135;
+|&#x2135;
+
+|actual UTF-8 encoded +
+ALEF SYMBOL
+|_copied & pasted +
+from http://www.fileformat.info/info/unicode/char/2135/browsertest.htm[here]_
+|ℵ
+|===
+
+// need more space here...
+&nbsp;
+&nbsp;
+
+.HEBREW LETTER ALEF
+[cols="3", options="header"]
+|===
+|HTML Markup Method
+|Markup code
+|Rendered in your browser
+
+|named character reference
+|_n/a_
+|_n/a_
+
+|decimal numeric character reference
+|\&#1488;
+|&#1488;
+
+|hexadecimal numeric character reference
+|\&#x05D0;
+|&#x05D0;
+
+|actual UTF-8 encoded +
+HEBREW LETTER ALEF
+|_copied & pasted +
+from http://www.fileformat.info/info/unicode/char/05d0/browsertest.htm[here]_
+|א
+|===
+
+
+
+
+// N2S: actual UTF-8 bytes - need to figure out correct terminology for this
+
+
+////
+== Questions
+
+* Are these two characters https://en.wikipedia.org/wiki/Unicode_equivalence[canonically equivalent]? 
+* Are they homographs?
+////
+
+== My relationship with Aleph
+
+The Aleph character is meaningful to me because I love Mathematics,
+the infinite, and the mystical aspects of reality. I've also been interested in
+fonts and character sets ever since I was a Mathematics graduate student and
+createdfootnote:[In graduate school, I spent many hours using http://en.wikipedia.org/wiki/Fontographer[Fontastic] to create mathematical fonts while procrastinating writing my thesis. For example, I fiddled a lot with the pixels in my
+2^&alefsym;~0~^ character.]
+my own mathematical fonts
+while writing my thesis about the Axiom of Choice.footnoteref:[ac]
+Because of the link between the Aleph character and my interests,
+I've created a new identity for myself named AlefSym, which I plan to use only for my own writing. This identity's avatar is *&alefsym;* and tagline is:
+____
+AlefSym by ℵancym
+____
+
+It's nice that it rhymes and that *&alefsym;* looks like my initial *N* :relieved:.
+
+I'm thinking about changing the avatar of my
+http://nancym.tumblr.com/[nancym.tumblr.com]
+and
+https://twitter.com/@nm[twitter.com/@nm]
+identities
+to *&alefsym;~1~*
+to tie these aspects of my personality together. *&alefsym;* is just me
+and *&alefsym;~1~* is me plus the things I reblog
+and retweet, which is a big jumbled uncountable mess of almost everything in the universe.
+ 
+
+// need more space here...
+&nbsp;
+&nbsp;
+
+== Resources
+
+* https://en.wikipedia.org/wiki/Aleph_(disambiguation)
+* https://en.wikipedia.org/wiki/Aleph
+* https://en.wikipedia.org/wiki/Aleph_number
+* https://en.wikipedia.org/wiki/Georg_Cantor
+* http://mathoverflow.net/questions/162844/aleph-looks-like-mathbb-n (includes history of Cantor's choice of Aleph)
+
+// need more space here...
+&nbsp;
+
+=== Footnotes
