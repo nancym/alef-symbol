@@ -2,7 +2,7 @@
 title:      ALEF SYMBOL
 author:     @nancym
 updated:    2015-11-07
-first published:  2014-11-01 in a Gist
+first&#x20;published:  2014-11-01 in a Gist
 ---
 
 
@@ -14,7 +14,7 @@ first published:  2014-11-01 in a Gist
 
 // old :atwurl: https://twitter.com/alefsym/status/528676321170178048
 
-^feedback&#x20;welcome.footnote:[foobar]^
+_^feedback&#x20;welcome.footnote:[foobar]^_
 
 ////
 &#x20;
