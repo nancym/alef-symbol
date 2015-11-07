@@ -1,18 +1,19 @@
 ---
-title:      ALEF SYMBOL
-author:     ℵancym
-updated:    2015-11-07
+title:            ALEF SYMBOL
+author:           ℵancym
+updated:          2015-11-07
 first published:  2014-11-01 in a Gist
+feedback:         https://github.com/nancym/alef-symbol/issues
 ---
 
-= ALEF SYMBOL by ℵancym
+// = ALEF SYMBOL by ℵancym
 :gurl: https://gist.github.com/nancym/caaeaf6777ca43adf789
 :atuurl: http://alefsym.tumblr.com/post/101511865526/alef-symbol
 :atwurl: https://twitter.com/alefsym/status/563370818407636992
 
 // old :atwurl: https://twitter.com/alefsym/status/528676321170178048
 
-_^feedback&#x20;welcome.footnote:[foobar]^_
+// _^feedback&#x20;welcome.footnote:[foobar]^_
 
 ////
 &#x20;
