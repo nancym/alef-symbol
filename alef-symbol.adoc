@@ -27,7 +27,7 @@ or comment on this article on its permalink pages at
 
 The character Aleph (&alefsym;), which is also spelled Alef, is used:
 
-  . in Mathematics, to represent different levels of infinity. &alefsym;~0~ is the smallest level of infinity, &alefsym;~1~ is the next level, etc.footnote:[In 1874 Cantor showed that there is more than one level of infinity and started using &alefsym;, followed by a subscript, to represent different levels of infinity.]footnoteref:[ac,If the Axiom of Choice is false, it is possible there are infinities other than the Alephs {&alefsym;~0~, &alefsym;~1~, &alefsym;~2~, ..., &alefsym;~ω~, &alefsym;~ω+1~, ...}.]
+  . in Mathematics, to represent different levels of infinity. &alefsym;~0~ is the smallest level of infinity, &alefsym;~1~ is the next level, etc.footnote:[In 1874 Cantor showed that there is more than one level of infinity and started using &alefsym; followed by a subscript, to represent different levels of infinity.]footnoteref:[ac,If the Axiom of Choice is false, it is possible there are infinities other than the Alephs {&alefsym;~0~, &alefsym;~1~, &alefsym;~2~, ..., &alefsym;~ω~, &alefsym;~ω+1~, ...}.]
   . in Hebrew, to represent
     * the first letter of the alphabet,
     * the number one (in http://en.wikipedia.org/wiki/Hebrew_alphabet#Numeric_values_of_letters[some contexts]), and
@@ -51,9 +51,9 @@ It is common to use these characters interchangeably, especially when using a fo
  
 == How to use Aleph in your writing
 
-To include Aleph in a document, you need a method for inserting it into your document's markup.footnote:[Common markup languages include AsciiDoc, HTML, LaTeX, Markdown, SGML, XHTML, and XML. AsciiDoc and Markdown are known as "lightweight markup languages."] Possible methods include:
+To include Aleph in a document, you need a method for inserting it into your document's markup.footnote:[Common markup languages include AsciiDoc, HTML, LaTeX, Markdown, SGML, XHTML, XML, and YAML. AsciiDoc, Markdown, and YAML are known as "lightweight markup languages."] Possible methods include:
 
-  * Insert the actual https://en.wikipedia.org/wiki/UTF-8[UTF-8]footnoteref:[utf8,UTF-8 is the encoding I'm using on this web page (and the encoding that is used on most web pages nowadays).] encoded ALEF SYMBOL Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/2135/browsertest.htm[FileFormat.Info/info/unicode/char/2135/browsertest.htm].
+  * Insert the actual https://en.wikipedia.org/wiki/UTF-8[UTF-8]footnoteref:[utf8,UTF-8 is the encoding that is used on most web pages, including this page.] encoded ALEF SYMBOL Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/2135/browsertest.htm[FileFormat.Info/info/unicode/char/2135/browsertest.htm].
   * Insert the actual UTF-8 encoded
 HEBREW LETTER ALEF Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/05d0/browsertest.htm[FileFormat.Info/info/unicode/char/05d0/browsertest.htm].
   * Insert a named character reference that is supported by your markup language. For example, in LaTeX you can insert the
@@ -149,13 +149,14 @@ createdfootnote:[In graduate school, I spent many hours using http://en.wikipedi
 my own mathematical fonts
 while writing my thesis about the Axiom of Choice.footnoteref:[ac]
 Because of the link between the Aleph character and my interests,
-I've created a new identity for myself named AlefSym, which I plan to use only for my own writing. This identity's avatar is *&alefsym;* and tagline is:
+I've created a new identity for myself named AlefSym, which I'll use only for my own writing. This identity's avatar is *&alefsym;* and tagline is:
 ____
 AlefSym by ℵancym
 ____
 
 It's nice that it rhymes and that *&alefsym;* looks like my initial *N* :relieved:.
 
+////
 I'm thinking about changing the avatar of my
 http://nancym.tumblr.com/[nancym.tumblr.com]
 and
@@ -165,7 +166,7 @@ to *&alefsym;~1~*
 to tie these aspects of my personality together. *&alefsym;* is just me
 and *&alefsym;~1~* is me plus the things I reblog
 and retweet, which is a big jumbled uncountable mess of almost everything in the universe.
- 
+////
 
 // need more space here...
 &nbsp;
