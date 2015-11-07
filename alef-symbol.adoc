@@ -2,7 +2,7 @@
 title:      ALEF SYMBOL
 author:     @nancym
 updated:    2015-11-07
-first&#x20;published:  2014-11-01 in a Gist
+published:  2014-11-01 in a Gist
 ---
 
 
