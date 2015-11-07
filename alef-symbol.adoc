@@ -1,6 +1,6 @@
 ---
 title:      ALEF SYMBOL
-author:     @nancym
+author:     ℵancym
 published:  2014-11-01
 updated:    2015-11-07
 ---
