@@ -1,11 +1,9 @@
 ---
 title:      ALEF SYMBOL
 author:     @nancym
+published:  2014-11-01
 updated:    2015-11-07
-published:  2014-11-01 in a Gist
 ---
-
-
 
 = ALEF SYMBOL by ℵancym
 :gurl: https://gist.github.com/nancym/caaeaf6777ca43adf789
