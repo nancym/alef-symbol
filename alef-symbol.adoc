@@ -1,10 +1,8 @@
 ---
 title:      ALEF SYMBOL
 author:     ℵancym
-published:  2014-11-01 in a Gist
-updated:    2015-11-07 
-date:       October 2015
-version:    foobar
+updated:    2015-11-07
+first published:  2014-11-01 in a Gist
 ---
 
 
@@ -18,7 +16,7 @@ version:    foobar
 
 
 &#x20;
-^Updated&#x20;2015-02-19;&#x20;first published&#x20;2014-11-01;&#x20;feedback welcome.footnoteref:[meta,You can
+^feedback&#x20;welcome.footnoteref:[meta,You can
 +++<a href="https://en.wikipedia.org/wiki/Like_button" title="bookmark, favorite, heart (♥), like, or star (★)">✭</a>+++
 or comment on this article on its permalink pages at
 {gurl}[Gist], {atuurl}[Tumblr], and {atwurl}[Twitter].]^
