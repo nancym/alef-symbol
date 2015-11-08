@@ -1,15 +1,17 @@
 ---
 title:            ALEF SYMBOL
 author:           ℵancym
-updated:          2015-11-07
 first published:  2014-11-01 in a Gist
+updated:          2015-11-07
 feedback:         https://github.com/nancym/alef-symbol/issues
 ---
 
 // = ALEF SYMBOL by ℵancym
+////
 :gurl: https://gist.github.com/nancym/caaeaf6777ca43adf789
 :atuurl: http://alefsym.tumblr.com/post/101511865526/alef-symbol
 :atwurl: https://twitter.com/alefsym/status/563370818407636992
+////
 
 // old :atwurl: https://twitter.com/alefsym/status/528676321170178048
 
@@ -46,7 +48,7 @@ http://en.wikipedia.org/wiki/Hebrew_(Unicode_block)[Hebrew Unicode block]
 The main difference between these is that ALEF SYMBOL is part of a left-to-right directionality character set and HEBREW LETTER ALEF is part of a right-to-left directionality character set. 
 ALEF SYMBOL is a 
 https://en.wikipedia.org/wiki/Unicode_compatibility_characters[compatibility character] and these two characters are considered border-line
-https://en.wikipedia.org/wiki/Unicode_compatibility_characters#Semantically_distinct_characters[semantically distinct].
+https://en.wikipedia.org/wiki/Unicode_compatibility_characters#Semantically_distinct_characters[semantically distinct characters].
 It is common to use these characters interchangeably, especially when using a font that supports only one of them.
  
 == How to use Aleph in your writing
@@ -150,9 +152,12 @@ my own mathematical fonts
 while writing my thesis about the Axiom of Choice.footnoteref:[ac]
 Because of the link between the Aleph character and my interests,
 I've created a new identity for myself named AlefSym, which I'll use only for my own writing. This identity's avatar is *&alefsym;* and tagline is:
+
 ____
 AlefSym by ℵancym
 ____
+
+
 
 It's nice that it rhymes and that *&alefsym;* looks like my initial *N* :relieved:.
 
