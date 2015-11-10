@@ -6,7 +6,9 @@ updated:          2015-11-07
 feedback:         https://github.com/nancym/alef-symbol/issues
 ---
 
-// = ALEF SYMBOL by ℵancym
+= ALEF SYMBOL
+:hide-uri-scheme:
+
 ////
 :gurl: https://gist.github.com/nancym/caaeaf6777ca43adf789
 :atuurl: http://alefsym.tumblr.com/post/101511865526/alef-symbol
@@ -38,7 +40,7 @@ The character Aleph (&alefsym;), which is also spelled Alef, is used:
 
 == Where is Aleph in the Unicode character set?
 
-In https://en.wikipedia.org/wiki/Unicode[Unicode], which is a standard universal character set that can support over a million charactersfootnote:[It's more correct to say Unicode can support over a million http://en.wikipedia.org/wiki/Code_point["code points"] (rather than "characters"). U+2135 and U+05D0 are examples of Unicode code points.], the mathematical and Hebrew meanings of Aleph are represented by two different characters:
+In https://en.wikipedia.org/wiki/Unicode[Unicode], which is a standard universal character set that can support over a million charactersfootnote:[It's more correct to say Unicode can support over a million http://en.wikipedia.org/wiki/Code_point["`code points`"] (rather than "`characters`"). U+2135 and U+05D0 are examples of Unicode code points.], the mathematical and Hebrew meanings of Aleph are represented by two different characters:
 
   . http://www.fileformat.info/info/unicode/char/2135/index.htm[ALEF SYMBOL (U+2135)], which is in the
 http://en.wikipedia.org/wiki/Letterlike_Symbols[Letterlike Symbols Unicode block]
@@ -53,7 +55,7 @@ It is common to use these characters interchangeably, especially when using a fo
  
 == How to use Aleph in your writing
 
-To include Aleph in a document, you need a method for inserting it into your document's markup.footnote:[Common markup languages include AsciiDoc, HTML, LaTeX, Markdown, SGML, XHTML, XML, and YAML. AsciiDoc, Markdown, and YAML are known as "lightweight markup languages."] Possible methods include:
+To include Aleph in a document, you need a method for inserting it into your document's markup.footnote:[Common markup languages include AsciiDoc, HTML, LaTeX, Markdown, SGML, XHTML, XML, and YAML. AsciiDoc, Markdown, and YAML are known as "`lightweight markup languages.`"] Possible methods include:
 
   * Insert the actual https://en.wikipedia.org/wiki/UTF-8[UTF-8]footnoteref:[utf8,UTF-8 is the encoding that is used on most web pages, including this page.] encoded ALEF SYMBOL Unicode character by, for example, copying and pasting it from http://www.fileformat.info/info/unicode/char/2135/browsertest.htm[FileFormat.Info/info/unicode/char/2135/browsertest.htm].
   * Insert the actual UTF-8 encoded
